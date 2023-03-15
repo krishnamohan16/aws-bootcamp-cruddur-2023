@@ -90,10 +90,4 @@ This is a tool where you can estimate the cost of any service based on the clien
 
 **4. Re-create Conceptual Diagram in Lucid-Charts**
 
-I'm new to lucid chart and I found it very hard to handle. But somehow Andrew video on Lucid Chart saved me.
-
-
-
-
-
-![architectural diagram-Lucid Chart](https://lucid.app/lucidchart/5de94ac9-f6bb-499a-b0d1-b4d12f6f81cc/edit?viewport_loc=49%2C130%2C1707%2C816%2C0_0&invitationId=inv_f106deda-93c2-4323-a2f9-6c3e2df6592d)
+image[architectural diagram-Lucid Chart](https://lucid.app/lucidchart/5de94ac9-f6bb-499a-b0d1-b4d12f6f81cc/edit?viewport_loc=49%2C130%2C1707%2C816%2C0_0&invitationId=inv_f106deda-93c2-4323-a2f9-6c3e2df6592d)
