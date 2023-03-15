@@ -87,7 +87,3 @@ Also we will receive an e-mail whenever the limit(We can mention as much as we w
 AWS Calculator : https://calculator.aws/#/
 
 This is a tool where you can estimate the cost of any service based on the client requirements without actually using it. 
-
-**4. Re-create Conceptual Diagram in Lucid-Charts**
-
-image[architectural diagram-Lucid Chart](https://lucid.app/lucidchart/5de94ac9-f6bb-499a-b0d1-b4d12f6f81cc/edit?viewport_loc=49%2C130%2C1707%2C816%2C0_0&invitationId=inv_f106deda-93c2-4323-a2f9-6c3e2df6592d)
