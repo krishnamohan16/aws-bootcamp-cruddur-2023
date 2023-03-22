@@ -20,7 +20,7 @@ tasks:
   - name: react-js
     command: |
       cd frontend-react-js
-      npm i
+      npm install -g npm@9.6.2
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
