@@ -16,11 +16,18 @@ tasks:
       sudo apt install -y postgresql-client-13 libpq-dev
     command: |
       export GITPOD_IP=$(curl ifconfig.me)
-      source  "$THEIA_WORKSPACE_ROOT/backend-flask/db-update-sg-rule"
+      source  "$THEIA_WORKSPACE_ROOT/backend-flask/bin/rds/update-sg-rule"
   - name: react-js
     command: |
       cd frontend-react-js
       npm i
+  - name: momento
+    before: |
+      brew tap momentohq/tap
+      brew install momento-cli
+  - name: docker-compose cli
+    before: |
+      curl -L https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
