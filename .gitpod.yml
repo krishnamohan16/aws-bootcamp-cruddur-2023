@@ -21,13 +21,10 @@ tasks:
     command: |
       cd frontend-react-js
       npm i
-  - name: momento
-    before: |
-      brew tap momentohq/tap
-      brew install momento-cli
-  - name: docker-compose cli
-    before: |
-      curl -L https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh
+  - name: flask
+    command: |
+      cd backend-flask
+      pip install -r requirements.txt
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
